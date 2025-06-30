@@ -1,0 +1,16 @@
+
+1) What is Appium? 
+
+ -> Appium is open-source 'Mobile Automation Tool' for testing native apps (Android & iOS) and mobile browsers
+ 
+ -> Appium internally uses WebDriver JSON Wire to test the apps. 
+ 
+ -> Appium is just like selenium for Mobile
+ 
+ -> Appium is the cross-platform test supporting tool
+ 
+ -> Supported Platforms:
+     
+    1. iOS
+    2. Android
+    3. Firefox OS
