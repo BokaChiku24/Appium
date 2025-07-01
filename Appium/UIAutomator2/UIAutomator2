@@ -1,0 +1,12 @@
+
+1) UIAutomator2
+  
+  -> UI Automator is a UI testing framework introduced by Google to facilitate automation on a Android device or emulator
+  
+  -> Appium leverages this UIAutomator with its own wrapper and came up with UIAutomator2 Driver to automate Android Apps.
+  
+2) Appium Service Start: 
+
+  -> Windows Path: C://users//rahul//AppData//Roaming//npm//node_modules//appium//build//lib//main.js
+  
+  -> Mac Path: /usr/local/lib/node_modules/appium/build/lib/main.js

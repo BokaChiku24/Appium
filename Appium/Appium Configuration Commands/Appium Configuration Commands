@@ -1,0 +1,14 @@
+
+1) Appium Configuration Commands: 
+
+ -> To start the Appium server
+ 
+   appium
+ 
+ -> To get the all available Appium drivers
+ 
+   appium driver list
+   
+ -> To install the Appium driver 
+ 
+   appium driver install uiautomator2
