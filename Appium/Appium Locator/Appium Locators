@@ -1,0 +1,12 @@
+
+1) Appium Locators:
+  
+  -> Xpath
+  
+  -> Id
+  
+  -> accessibilityId
+  
+  -> className
+  
+  -> androidUIAutomator
