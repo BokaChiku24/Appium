@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-02T01:52:32 IST" name="Default suite" finished-at="2025-07-02T01:52:41 IST" duration-ms="9422">
+  <suite started-at="2025-07-02T23:59:14 IST" name="Default suite" finished-at="2025-07-02T23:59:31 IST" duration-ms="17312">
     <groups>
     </groups>
-    <test started-at="2025-07-02T01:52:32 IST" name="Default test" finished-at="2025-07-02T01:52:41 IST" duration-ms="9422">
-      <class name="org.android.uiAutomator2.androidBasic.AppiumTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.android.uiAutomator2.androidBasic.AppiumTest@3c46e67a]" started-at="2025-07-02T01:52:32 IST" name="setup" finished-at="2025-07-02T01:52:40 IST" duration-ms="7910" status="PASS">
+    <test started-at="2025-07-02T23:59:14 IST" name="Default test" finished-at="2025-07-02T23:59:31 IST" duration-ms="17312">
+      <class name="org.android.uiAutomator2.androidGestures.ScrollGesture">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.android.uiAutomator2.androidGestures.ScrollGesture@38425407]" started-at="2025-07-02T23:59:14 IST" name="setUp" finished-at="2025-07-02T23:59:20 IST" duration-ms="5937" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="androidTest()[pri:0, instance:org.android.uiAutomator2.androidBasic.AppiumTest@3c46e67a]" started-at="2025-07-02T01:52:40 IST" name="androidTest" finished-at="2025-07-02T01:52:41 IST" duration-ms="1345" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="scrollGesture()[pri:0, instance:org.android.uiAutomator2.androidGestures.ScrollGesture@38425407]" started-at="2025-07-02T23:59:20 IST" name="scrollGesture" finished-at="2025-07-02T23:59:26 IST" duration-ms="6378" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- androidTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.android.uiAutomator2.androidBasic.AppiumTest@3c46e67a]" started-at="2025-07-02T01:52:41 IST" name="tearDown" finished-at="2025-07-02T01:52:41 IST" duration-ms="148" status="PASS">
+        </test-method> <!-- scrollGesture -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.android.uiAutomator2.androidGestures.ScrollGesture@38425407]" started-at="2025-07-02T23:59:26 IST" name="tearDown" finished-at="2025-07-02T23:59:31 IST" duration-ms="4975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.android.uiAutomator2.androidBasic.AppiumTest -->
+      </class> <!-- org.android.uiAutomator2.androidGestures.ScrollGesture -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

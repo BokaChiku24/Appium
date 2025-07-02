@@ -6,3 +6,11 @@
 3) platformName - android
 
 4) automationName - UIAutomator2
+
+5) To run the appium inspector start the appium server first from command 
+
+6) Open the page where we want to go and perform 'Refresh Source & Screenshot' from appium inspector.
+
+7) The step 6 option directly navigate to page which is open in appium in the emulator
+
+8) To go to the back page - hit 'Press Back Button' in the appium inspector to navigate to the back screen or page

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.android.uiAutomator2.androidBasic.AndroidBasics">
+      <class name="org.android.uiAutomator2.androidGestures.ScrollGesture">
         <methods>
-          <include name="appiumTest"/>
+          <include name="tearDown"/>
+          <include name="scrollGesture"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- org.android.uiAutomator2.androidBasic.AndroidBasics -->
+      </class> <!-- org.android.uiAutomator2.androidGestures.ScrollGesture -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
