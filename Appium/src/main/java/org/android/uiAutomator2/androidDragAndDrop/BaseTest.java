@@ -1,4 +1,4 @@
-package org.android.uiAutomator2.androidGestures;
+package org.android.uiAutomator2.androidDragAndDrop;
 
 import java.io.File;
 import java.net.MalformedURLException;

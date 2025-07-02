@@ -11,9 +11,13 @@ public class ScrollGesture extends BaseTest {
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 
 		// Scroll to click on the mobile element
+		// Where to scroll known prior
+		// driver.findElement(
+		//		AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
 
-		driver.findElement(
-				AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+		// Scroll to the mobile element way 2
+		// No prior idea
+		scrolltoEndAction();
 	}
 
 }
