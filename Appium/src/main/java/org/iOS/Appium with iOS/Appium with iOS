@@ -1,0 +1,23 @@
+
+ iOS Apps Automation Testing with Appium
+
+1) Download Appium Server
+
+2) Install XCode to compile the app on suitable iPhone/iPad
+
+3) Launch iPhone Simulator
+
+4) Setup Appium maven Project with Appium Jars
+
+5) Desired Capabilities needs to invoke app on the iPhone
+
+6) Understand how to inspect object of iOS App using Appium Inspector
+
+7) Build Appium Automation Script for Functional Testing of iOS App
+
+8) How to automate dropDown, Text Edit boxes, Steppers, Buttons, Menu's Alerts, 
+   How to scroll
+   How to swipe
+   How to Long Press
+   How to Tap
+   How to perform 3dtouch event and automate slides

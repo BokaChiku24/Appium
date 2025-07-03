@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeClass;
 
 import com.google.common.collect.ImmutableMap;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -32,6 +33,7 @@ public class BaseTest {
 				.withIPAddress("127.0.0.1").usingPort(4723).build();
 		service.start();
 		options = new UiAutomator2Options();
+		options.setChromedriverExecutable("/Users/kunalchavan/Documents/chromedriver");
 		options.setDeviceName("Pixel 8");
 		options.setApp(System.getProperty("user.dir") + "/src/main/resources/General-Store.apk");
 		try {
@@ -45,7 +47,7 @@ public class BaseTest {
 
 	public void logPress(WebElement element) {
 		((JavascriptExecutor) driver).executeScript("mobile: longClickGesture",
-				ImmutableMap.of("elementId", ((RemoteWebElement) element).getId(), "duration", 5000));
+				ImmutableMap.of("elementId", ((RemoteWebElement) element).getId(), "duration", 2000));
 	}
 
 	public void scrolltoEndAction() {
@@ -66,7 +68,12 @@ public class BaseTest {
 				ImmutableMap.of("elementId", ((RemoteWebElement) element).getId(), "endX", x, "endY", y));
 
 	}
-	
+
+	public void scrollToElement(String name) {
+		driver.findElement(AppiumBy
+				.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + name + "\"))"));
+	}
+
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
