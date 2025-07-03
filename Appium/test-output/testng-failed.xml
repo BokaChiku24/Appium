@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.android.uiAutomator2.androidDragAndDrop.DragAndDrop">
+      <class name="org.android.uiAutomator2.androidAppInvok.AppInvok">
         <methods>
+          <include name="appInvoke"/>
           <include name="setUp"/>
-          <include name="dragAndDropTest"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- org.android.uiAutomator2.androidDragAndDrop.DragAndDrop -->
+      </class> <!-- org.android.uiAutomator2.androidAppInvok.AppInvok -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

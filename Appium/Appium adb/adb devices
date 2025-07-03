@@ -1,0 +1,26 @@
+
+1) Open the vi ~/.zshrc file in the terminal 
+   
+   
+   setup all below command in the .zshrc file
+   
+    export ANDROID_HOME = /Users/kunalchavan/Library/Android/sdk
+	export PATH=$ANDROID_HOME:$PATH
+	export PATH=$ANDROID_HOME/platform-tools:$PATH
+	export PATH=$ANDROID_HOME/tools:$PATH
+	export PATH=$ANDROID_HOME/tools/bin:$PATH
+	export PATH=$ANDROID_HOME/emulator:$PATH
+	export PATH=$ANDROID_HOME/sources:$PATH
+	export PATH=$ANDROID_HOME/bundle-tool:$PATH
+	export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
+	
+2) Type 'source ~/.zshrc' file
+
+3) Type the command in the terminal 'brew install android-platform-tools'
+
+4) Open the Emulator and start session
+
+5) Type 'adb devices' in the command 
+
+6) List of devices attached
+   emulator-5554	device
