@@ -1,0 +1,16 @@
+
+E-commerce Application
+
+Test Scenarios to Automate
+
+1) Fill the form details and verify Toast error messages displayed appropriately for wrong inputs
+
+2) Shop the items in the app by scrolling to specific Product and add to the into the cart
+
+3) Validate if the items selected in  the page 2 are matching with items displayed in the check out page
+
+4) Validate the total Amount displayed in the checkout pages matches with sum of product amounts selected for Shopping
+
+5) Validate Mobile gestures working for links (long Press) and navigate to WebView
+
+6) Verify if the user can do operations on Web view and can navigate back to the Native App if needed

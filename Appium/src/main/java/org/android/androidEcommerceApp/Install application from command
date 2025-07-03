@@ -1,0 +1,12 @@
+
+1) Open the emulator 
+
+2) Open the terminal or command prompt
+
+3) Go to the Android/sdk/platform-tools .e. directory of the platform-tools
+
+4) Type 'adb install /Users/kunalchavan/git/repository3/Appium/src/main/resources/General-Store.apk"
+
+5) Performing Stream Installed 
+   Success
+

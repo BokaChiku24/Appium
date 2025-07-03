@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.android.uiAutomator2.androidAppInvok.AppInvok">
+      <class name="org.android.androidEcommerceApp.testCases.ToastMessage">
         <methods>
-          <include name="appInvoke"/>
-          <include name="setUp"/>
+          <include name="toastMessage"/>
+          <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- org.android.uiAutomator2.androidAppInvok.AppInvok -->
+      </class> <!-- org.android.androidEcommerceApp.testCases.ToastMessage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
