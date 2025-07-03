@@ -1,4 +1,4 @@
-package org.android.uiAutomator2.androidDragAndDrop;
+package org.android.uiAutomator2.androidMiscellaneousActivity;
 
 import java.io.File;
 import java.net.MalformedURLException;

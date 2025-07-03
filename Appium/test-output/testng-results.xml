@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T00:52:09 IST" name="Default suite" finished-at="2025-07-03T00:52:25 IST" duration-ms="16406">
+  <suite started-at="2025-07-03T10:46:47 IST" name="Default suite" finished-at="2025-07-03T10:47:03 IST" duration-ms="16401">
     <groups>
     </groups>
-    <test started-at="2025-07-03T00:52:09 IST" name="Default test" finished-at="2025-07-03T00:52:25 IST" duration-ms="16406">
-      <class name="org.android.uiAutomator2.androidGestures.SwipeGesture">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.android.uiAutomator2.androidGestures.SwipeGesture@702657cc]" started-at="2025-07-03T00:52:09 IST" name="setUp" finished-at="2025-07-03T00:52:15 IST" duration-ms="5742" status="PASS">
+    <test started-at="2025-07-03T10:46:47 IST" name="Default test" finished-at="2025-07-03T10:47:03 IST" duration-ms="16401">
+      <class name="org.android.uiAutomator2.androidDragAndDrop.DragAndDrop">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.android.uiAutomator2.androidDragAndDrop.DragAndDrop@6025e1b6]" started-at="2025-07-03T10:46:47 IST" name="setUp" finished-at="2025-07-03T10:46:53 IST" duration-ms="6119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="swipeGestureTest()[pri:0, instance:org.android.uiAutomator2.androidGestures.SwipeGesture@702657cc]" started-at="2025-07-03T00:52:15 IST" name="swipeGestureTest" finished-at="2025-07-03T00:52:20 IST" duration-ms="5590" status="PASS">
+        <test-method signature="dragAndDropTest()[pri:0, instance:org.android.uiAutomator2.androidDragAndDrop.DragAndDrop@6025e1b6]" started-at="2025-07-03T10:46:53 IST" name="dragAndDropTest" finished-at="2025-07-03T10:47:00 IST" duration-ms="6825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- swipeGestureTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.android.uiAutomator2.androidGestures.SwipeGesture@702657cc]" started-at="2025-07-03T00:52:20 IST" name="tearDown" finished-at="2025-07-03T00:52:25 IST" duration-ms="5056" status="PASS">
+        </test-method> <!-- dragAndDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.android.uiAutomator2.androidDragAndDrop.DragAndDrop@6025e1b6]" started-at="2025-07-03T10:47:00 IST" name="tearDown" finished-at="2025-07-03T10:47:03 IST" duration-ms="3439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.android.uiAutomator2.androidGestures.SwipeGesture -->
+      </class> <!-- org.android.uiAutomator2.androidDragAndDrop.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
