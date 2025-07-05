@@ -1,0 +1,6 @@
+
+1) What is updateWDABundleld? 
+
+  -> Often we need provisioning profile from Apple to run the apps on Real Devices and this provisioning profile genrates Bundle ID.
+  
+  -> ANd we need to sign the app to run on the device using Bundle id.
