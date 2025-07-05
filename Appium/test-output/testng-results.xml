@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-04T17:19:13 IST" name="Default suite" finished-at="2025-07-04T17:19:28 IST" duration-ms="15739">
+  <suite started-at="2025-07-05T15:04:22 IST" name="Default suite" finished-at="2025-07-05T15:05:23 IST" duration-ms="61214">
     <groups>
     </groups>
-    <test started-at="2025-07-04T17:19:13 IST" name="Default test" finished-at="2025-07-04T17:19:28 IST" duration-ms="15739">
-      <class name="org.iOS.iOS.xcuiTest.iosGestures.SlidingGesture">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.iOS.iOS.xcuiTest.iosGestures.SlidingGesture@43bc63a3]" started-at="2025-07-04T17:19:13 IST" name="setup" finished-at="2025-07-04T17:19:22 IST" duration-ms="9068" status="PASS">
+    <test started-at="2025-07-05T15:04:22 IST" name="Default test" finished-at="2025-07-05T15:05:23 IST" duration-ms="61214">
+      <class name="org.android.androidEcommerceApp.testCases.FillFormTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.android.androidEcommerceApp.testCases.FillFormTestCase@40a4337a]" started-at="2025-07-05T15:04:22 IST" name="setup" finished-at="2025-07-05T15:04:28 IST" duration-ms="6322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="slideTest()[pri:0, instance:org.iOS.iOS.xcuiTest.iosGestures.SlidingGesture@43bc63a3]" started-at="2025-07-04T17:19:22 IST" name="slideTest" finished-at="2025-07-04T17:19:24 IST" duration-ms="1974" status="PASS">
+        <test-method signature="fillForm()[pri:0, instance:org.android.androidEcommerceApp.testCases.FillFormTestCase@40a4337a]" started-at="2025-07-05T15:04:28 IST" name="fillForm" finished-at="2025-07-05T15:05:20 IST" duration-ms="51594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- slideTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.iOS.iOS.xcuiTest.iosGestures.SlidingGesture@43bc63a3]" started-at="2025-07-04T17:19:24 IST" name="tearDown" finished-at="2025-07-04T17:19:28 IST" duration-ms="4677" status="PASS">
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.android.androidEcommerceApp.testCases.FillFormTestCase@40a4337a]" started-at="2025-07-05T15:05:20 IST" name="tearDown" finished-at="2025-07-05T15:05:23 IST" duration-ms="3278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.iOS.iOS.xcuiTest.iosGestures.SlidingGesture -->
+      </class> <!-- org.android.androidEcommerceApp.testCases.FillFormTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

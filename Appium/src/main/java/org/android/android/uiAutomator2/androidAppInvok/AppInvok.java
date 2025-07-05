@@ -22,12 +22,6 @@ public class AppInvok extends BaseTest {
 		 */
 		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of("intent",
 				"io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies"));
-		try {
-			Thread.sleep(Duration.ofSeconds(10));
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 
 }
