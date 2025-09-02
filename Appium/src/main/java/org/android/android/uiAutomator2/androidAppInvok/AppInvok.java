@@ -1,7 +1,5 @@
 package org.android.android.uiAutomator2.androidAppInvok;
 
-import java.time.Duration;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
@@ -20,7 +18,7 @@ public class AppInvok extends BaseTest {
 		 * "io.appium.android.apis.preference.PreferenceDependencies");
 		 * driver.startActivity(activity);
 		 */
-		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of("intent",
+		((JavascriptExecutor) driver).executeScript("mobile: startActivity", ImmutableMap.of("intent",
 				"io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies"));
 	}
 
